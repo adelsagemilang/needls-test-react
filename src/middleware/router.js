@@ -3,7 +3,7 @@
   and respond appropriately should the action for the router location changing be dispatched.
   
   If the router location change action is dispatched we check to see if the pathname contains
-  /add or /subtract and dispatch corresponding counter actions should either case exists.
+  /increase or /decrease and dispatch corresponding counter actions should either case exists.
 
   Finally we call next(), which is the next function in the middleware chain and return its value to be
   used further along the middleware chain!
